@@ -15,6 +15,12 @@ This workflow serves as a starting point for building Angular 1.x applications u
 * No gulp and no grunt, just npm scripts.
 * Generic components via plop.
 
+Inspired/based on the following github projects:
+
+* https://github.com/preboot/angular-webpack
+* https://github.com/zombiQWERTY/angular-component-way-webpack-starter-kit
+* https://github.com/AngularClass/NG6-starter
+
 >Warning: Make sure you're using the latest version of Node.js and NPM
 
 ### Installing
@@ -25,6 +31,9 @@ $ git clone https://github.com/aaronrosenthal/angular-webpack-starter-kit my-app
 
 # change directory to your app
 $ cd my-app
+
+# install global dependencies with npm
+$ npm install -g karma karma-cli webpack
 
 # install the dependencies with npm
 $ npm install
@@ -51,7 +60,7 @@ go to [http://localhost:8080](http://localhost:8080) in your browser.
 ## Dependencies
 
 What you need to run this app:
-* `node` and `npm` (Use [NVM](https://github.com/creationix/nvm))
+* `node` and `npm` Once you have these, install the following as global dependencies: `npm install -g karma karma-cli webpack`
 * Ensure you're running Node (`v4.1.x`+) and NPM (`2.14.x`+)
 
 ## Running the app
