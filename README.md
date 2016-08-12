@@ -4,16 +4,16 @@ A complete, yet simple, component-way starter for Angular using Webpack.
 
 This workflow serves as a starting point for building Angular 1.x applications using Webpack. Should be noted that apart from the pre-installed angular package, this workflow is pretty much generic.
 
-* Heavily commented webpack configuration with reasonable defaults.
+* Heavily commented `Webpack` configuration with reasonable defaults.
 * Based on component way.
-* ES6, and ES7 support with babel.
+* ES6, and ES7 support with `Babel`.
 * Source maps included in all builds.
 * Development server with live reload.
 * Production builds with cache busting.
 * Testing environment using karma to run tests and jasmine as the framework.
 * Code coverage when tests are run.
-* No gulp and no grunt, just npm scripts.
-* Generic components via plop.
+* No gulp and no grunt, just `npm` scripts.
+* Generic components via `plop`.
 
 Inspired/based on the following github projects:
 
@@ -23,10 +23,12 @@ Inspired/based on the following github projects:
 
 >Warning: Make sure you're using the latest version of Node.js and NPM
 
-### Installing
+### Quick Start
+
+> Clone/Download the repo then edit `app.js` inside [`/src/app/app.js`](/src/app/app.js)
 
 ```bash
-# clone our repo
+# clone this repo
 $ git clone https://github.com/aaronrosenthal/angular-webpack-starter-kit my-app
 
 # change directory to your app
@@ -53,7 +55,6 @@ go to [http://localhost:8080](http://localhost:8080) in your browser.
     * [Developing](#developing)
     * [Testing](#testing)
     * [Other](#other)
-* [License](#license)
 
 # Getting Started
 
